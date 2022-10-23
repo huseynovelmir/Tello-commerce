@@ -1,1 +1,1 @@
-Live link : https://huseynovelmir.netlify.app/
+Click to visit website  : https://huseynovelmir.netlify.app/
