@@ -1,0 +1,158 @@
+.man-access {
+
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 50px;
+    max-width: 1440px;
+
+
+
+    .mobile-information {
+        width: 562px;
+        height: 740px;
+        overflow: hidden;
+        position: relative;
+        background: linear-gradient(180deg, #f2e4dd, #e9e9e9);
+        border-radius: 8px 8px 0px 0px;
+        border-radius: 8px;
+
+
+
+        img {
+            position: absolute;
+            bottom: 0px;
+        }
+
+    }
+
+    .information-text {
+        h3 {
+            font-family: 'Poppins', sans-serif, ;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 32px;
+            color: #303030;
+            margin-top: 40px;
+            margin-left: 40px;
+        }
+
+        .informationlink {
+            margin-top: 10px;
+            margin-left: 40px;
+
+            a {
+                font-family: 'Poppins', sans-serif, ;
+                display: flex;
+                align-items: center;
+                color: #3366FF;
+                text-decoration: none;
+            }
+        }
+
+    }
+
+    .access {
+        display: flex;
+        flex-direction: column;
+        height: 740px;
+        justify-content: space-between;
+
+        .smart-watch {
+            position: relative;
+            width: 562px;
+            height: 356px;
+
+            border-radius: 8px;
+            background: linear-gradient(180deg, #f2e4dd, #e9e9e9);
+
+            img {
+                position: absolute;
+                bottom: 0;
+                right: 20px;
+            }
+        }
+
+        .new-access {
+            position: relative;
+            width: 562px;
+            height: 356px;
+
+            border-radius: 8px;
+            background: linear-gradient(180deg, #f2e4dd, #e9e9e9);
+
+            img {
+                position: absolute;
+                bottom: 0;
+                right: 20px;
+            }
+        }
+    }
+
+
+}
+
+@media only screen and (max-width:600px) {
+    .man-access {
+        flex-wrap: wrap;
+        justify-content: center;
+
+        .mobile {
+            .mobile-information {
+                width: 300px;
+                height: 400px;
+                position: relative;
+
+                img {
+                    width: 100%;
+                    position: absolute;
+                    right: 0px;
+                }
+            }
+        }
+
+        .information-text {
+            h3 {
+                font-size: 12px;
+                margin-top: 20px !important;
+                margin-left: 20px;
+            }
+
+            .informationlink {
+                margin-left: 20px;
+
+                a {
+                    margin-top: -15px !important;
+
+                    font-size: 12px;
+                }
+            }
+        }
+
+        .access {
+            margin-top: 20px;
+            display: block;
+            height: 360px;
+
+            .smart-watch {
+                width: 300px;
+                height: 200px;
+
+                img {
+                    width: 50%;
+                }
+            }
+
+            .new-access {
+                width: 300px;
+                margin-top: 20px;
+                height: 200px;
+
+                img {
+                    width: 50%;
+                }
+            }
+        }
+    }
+
+}

@@ -1,0 +1,33 @@
+.marca-slider {
+    background-color: #F5F5F7;
+    height: 200px;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-evenly !important;
+    margin-top: 50px !important;
+    max-width: 1440px;
+    margin: 0 auto;
+
+
+}
+
+.slick-dots {
+    bottom: 20px !important;
+
+    .slick-active {
+        button::before {
+
+            color: #00D68F !important;
+        }
+    }
+
+}
+@media only screen and (max-width:600px) {
+.marca-slider{
+    display: none !important;
+
+}
+.slick-dots{
+    display: none !important;
+}
+}

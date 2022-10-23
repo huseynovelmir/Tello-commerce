@@ -1,0 +1,284 @@
+.brend-area {
+    width: 200px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 60px;
+    margin-top: 20px;
+    border-bottom: 1px solid #BDBDBD;
+
+    img {
+        width: 20px;
+    }
+
+    h3 {
+        font-family: "Poppins", sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 20px;
+        /* identical to box height, or 143% */
+
+
+        /* Gray/Gray2 */
+
+        color: #4F4F4F;
+    }
+}
+
+.part-1 {
+    position: absolute;
+}
+
+.continer {
+    width: 100%;
+}
+
+.brend-content1 {
+    margin-left: 60px;
+
+    .brend-ul {
+        li {
+            display: flex;
+            align-items: center;
+
+            list-style-type: none;
+            margin-top: 20px;
+
+
+
+            input[type="checkbox"] {
+                appearance: none;
+                width: 20px;
+                height: 20px;
+
+                // background-color: #BDBDBD;
+                border: 1px solid #4F4F4F;
+                border-radius: 3px;
+                color: #BDBDBD;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+
+            }
+
+            input[type="checkbox"]:checked {
+                background-color: #2DD06E;
+                border: 1px solid #2DD06E;
+            }
+
+            input[type="checkbox"]:after {
+
+                font-weight: 900;
+                content: "\2714";
+                color: #fff;
+
+
+            }
+
+
+
+            label {
+                margin-left: 10px;
+                font-family: "Poppins", sans-serif;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 20px;
+                color: #4F4F4F;
+
+            }
+        }
+    }
+
+}
+
+.neon-color {
+    background-color: #2DD06E !important;
+}
+
+.static-color {
+    background-color: white;
+}
+
+
+
+.brend-container {
+    display: flex;
+    align-items: flex-end;
+
+    h5 {
+        margin-left: 30px;
+        font-family: "Poppins", sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        /* identical to box height, or 143% */
+
+
+        /* Gray 1 */
+
+        color: #333333;
+    }
+}
+.Filter{
+    margin-left: 100px;
+}
+
+.allcategory-area {
+
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-wrap: wrap;
+    // margin-inline: 35px;
+
+    max-width: 1440px;
+    margin-top: 30px !important;
+    margin-left: 200px !important;
+    overflow-x: auto;
+    // margin-inline: 30px;
+
+    margin: 0 auto;
+
+    .bestseller-card {
+        position: relative;
+        min-width: 286px;
+        height: 330px;
+        background-color: #fff;
+        box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        overflow: hidden;
+        border-radius: 6px;
+        margin-left: 30px;
+        margin-top: 60px !important;
+        margin-bottom: 15px !important;
+
+        .img-area {
+            width: 183px;
+            height: 210px;
+
+            img {
+                margin-left: 30px;
+                padding-bottom: 10px;
+                width: 100%;
+
+
+            }
+        }
+
+        h1 {
+            font-family: "Poppins", sans-serif;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 24px;
+            max-width: 200px;
+            color: #333333;
+            margin-left: 30px;
+        }
+
+        .price-area {
+            .price {
+                font-family: "Poppins", sans-serif;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                margin-left: 30px;
+            }
+        }
+    }
+}
+
+
+
+.detail-container-area {
+    display: flex;
+    width: 40%;
+}
+
+.slick-area {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+    .circledetailes {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: #fff;
+        border: 1px solid #4F4F4F;
+        margin-inline: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .number1-area {
+        background-color: #2DD06E;
+        color: #fff;
+    }
+
+    .circledetailes-number {
+        width: 32px;
+        height: 32px;
+        border-radius: 8px;
+        // background-color: #2DD06E;
+        // background-color: #fff;
+
+        margin-inline: 10px;
+        border: none;
+    }
+
+    .circledetailes-number:checked {
+        background-color: #2DD06E;
+    }
+}
+
+@media only screen and (max-width:600px) {
+
+    .part-1 {
+        position: static !important;
+    }
+
+    .allcategory-area {
+        margin-left: 0px !important;
+
+        .bestseller-card {
+            margin-top: 0px !important;
+        }
+    }
+
+    .brend-area {
+        margin-left: 10px !important;
+    }
+
+    .brend-container {
+        flex-direction: column;
+        align-items: center;
+        h5{
+            margin-left: 0px;
+        }
+    }
+
+    .brend-content1 {
+        .brend-ul {
+            li {
+                margin-left: 40px;
+            }
+        }
+
+    }
+}

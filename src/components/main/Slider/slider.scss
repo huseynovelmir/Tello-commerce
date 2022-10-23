@@ -1,0 +1,130 @@
+$black: #000000;
+$Gray: #4F4F4F;
+
+.slider {
+
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    margin: 0 auto !important;
+    width: 90% !important;
+    height: 450px;
+    max-width: 1440px !important;
+
+    div {
+
+
+        max-width: 484px;
+
+        h3 {
+            font-family: 'Roboto', sans-serif;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 48px;
+            line-height: 64px;
+            color: $black;
+        }
+
+        p {
+            font-family: 'Roboto', sans-serif;
+            margin-top: 10px;
+            color: $Gray;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+        }
+    }
+
+    .iphone14 {
+        width: 350px;
+        height: 350px;
+    }
+
+    .iwatch {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+.main-img {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1440px;
+    position: absolute;
+    height: 90%;
+
+    overflow: hidden;
+
+    img {
+        max-width: 1440px;
+        margin: 0 auto;
+        width: 100%;
+
+
+    }
+
+}
+
+@media only screen and (max-width:600px) {
+
+    .slider {
+        flex-direction: column !important;
+
+        div {
+            h3 {
+                font-style: normal;
+                font-weight: 600;
+                font-size: 24px;
+                line-height: 32px;
+                /* or 133% */
+
+                text-align: center;
+            }
+
+            p {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                /* or 150% */
+
+                text-align: center;
+            }
+        }
+
+        .iphones {
+            order: 1;
+            width: 90%;
+        }
+
+        .iphone14 {
+            width: 80%;
+            height: 60%;
+            margin-top: 50px;
+        }
+
+        .iwatch {
+            width: 77%;
+            height: 60%;
+            margin-top: 50px;
+        }
+
+        div {
+            order: 2;
+        }
+    }
+
+    .main-img {
+        width: 100%;
+        height: 55%;
+      
+
+        img {
+            width: 500px;
+            height: 100%;
+            margin: 0 auto;
+
+        }
+    }
+}

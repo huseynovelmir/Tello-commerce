@@ -1,0 +1,23 @@
+.register {
+    padding: 90px 0 150px 0;
+
+    .container {
+        .register-content {
+            display: flex;
+            justify-content: space-around;
+        }
+    }
+}
+
+@media(max-width:600px) {
+    .register {
+        padding: 40px 0 100px 0;
+
+        .container {
+            .register-content {
+                gap: 20px;
+                flex-direction: column;
+            }
+        }
+    }
+}

@@ -1,0 +1,59 @@
+.adventage {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 100px;
+
+    .talon {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        img {
+            width: 65px;
+            height: 65px;
+        }
+
+        h6 {
+            font-family: 'Montserrat', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 28px;
+            text-align: center;
+            margin-top: 20px;
+            color: #333333;
+
+
+
+        }
+
+        p {
+            font-family: 'Montserrat', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            max-width: 340px;
+            /* or 150% */
+
+            text-align: center;
+            margin-top: 20px;
+            color: #333333;
+        }
+    }
+}
+@media only screen and (max-width:600px) {
+
+    .adventage{
+        flex-wrap: wrap;
+        // margin-top: 20px; 
+        .talon{
+            img{
+
+                margin-top: 20px;
+            }
+        }
+    }
+}
