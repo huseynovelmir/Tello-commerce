@@ -1,4 +1,4 @@
-# Tello-commerce
+# Tello-commerce[Click to visit the site](https://tello-commerce.vercel.app/)
 
 ## Overview
 
@@ -44,4 +44,4 @@ Feel free to reach out if you have any questions or suggestions about the projec
 - **LinkedIn**: [linkedin.com/in/huseynovelmir](https://www.linkedin.com/in/huseynovelmir/)
 - **Instagram**: [instagram.com/needforelmir](https://www.instagram.com/needforelmir/)
 
-Project Link: [https://github.com/huseynovelmir/elmir-dev](https://github.com/huseynovelmir/elmir-dev)
+
