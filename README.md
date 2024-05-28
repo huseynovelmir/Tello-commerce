@@ -1,4 +1,4 @@
-# Tello-commerce[Click to visit the site](https://tello-commerce.vercel.app/)
+# Tello-commerce [Click to visit the site](https://tello-commerce.vercel.app/)
 
 ## Overview
 
